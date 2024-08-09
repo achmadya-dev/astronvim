@@ -8,23 +8,23 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.code-runner.overseer-nvim" },
-  { import = "astrocommunity.completion.copilot-lua-cmp" },
-  {
-    -- customise the copilot plugin
-    "copilot.lua",
-    opts = {
-      suggestion = {
-        keymap = {
-          -- accept = "<C-l>", changed to Alt-l
-          accept = "<M-l>",
-          accept_word = false,
-          accept_line = false,
-          next = "<C-.>",
-          prev = "<C-,>",
-          dismiss = "<C/>",
-        },
-      },
-    },
-  },
+  { import = "astrocommunity.code-runner.overseer-nvim", enabled = false },
+  { import = "astrocommunity.completion.copilot-lua-cmp", enabled = false },
+  -- {
+  --   -- customise the copilot plugin
+  --   "copilot.lua",
+  --   opts = {
+  --     suggestion = {
+  --       keymap = {
+  --         -- accept = "<C-l>", changed to Alt-l
+  --         accept = "<M-l>",
+  --         accept_word = false,
+  --         accept_line = false,
+  --         next = "<C-.>",
+  --         prev = "<C-,>",
+  --         dismiss = "<C/>",
+  --       },
+  --     },
+  --   },
+  -- },
 }
