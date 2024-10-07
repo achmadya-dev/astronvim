@@ -8,11 +8,11 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.code-runner.overseer-nvim", enabled = false },
-  { import = "astrocommunity.completion.copilot-lua-cmp", enabled = false },
+  { import = "astrocommunity.code-runner.overseer-nvim" },
+  -- { import = "astrocommunity.completion.copilot-lua-cmp", enabled = false },
   -- {
   --   -- customise the copilot plugin
-  --   "copilot.lua",
+  --   "zbirenbaum/copilot.lua",
   --   opts = {
   --     suggestion = {
   --       keymap = {
