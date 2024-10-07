@@ -9,6 +9,8 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.code-runner.overseer-nvim" },
+  { import = "astrocommunity.pack.typescript-all-in-one" },
+
   -- { import = "astrocommunity.completion.copilot-lua-cmp", enabled = false },
   -- {
   --   -- customise the copilot plugin
